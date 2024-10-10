@@ -21,7 +21,7 @@ const Page: PageEl = (props, state, refresh, getProps) => {
 
       <Window title={name} style={{
         minHeight: 500, margin: 10, width: "calc(100% - 20px)",
-        backgroundImage: 'url("https://irmapserver.ir/research/39/Apple-tests-adding-news-to-the-native-Weather-app-in-iOS-16.2-Beta.jpg")'
+        backgroundImage: 'url("https://ituring.ir/research/39/Apple-tests-adding-news-to-the-native-Weather-app-in-iOS-16.2-Beta.jpg")'
       }}>
 
         {/* <pre style={{ direction: "ltr" }}>{JSON.stringify(props, null, 2)}</pre> */}
@@ -41,10 +41,10 @@ const Page: PageEl = (props, state, refresh, getProps) => {
           <f-cse>
             <f-cc style={{
               height: 300, width: 400,
-              backgroundImage: 'url("https://irmapserver.ir/research/39/images%20%281%29.png")'
+              backgroundImage: 'url("https://ituring.ir/research/39/images%20%281%29.png")'
               , borderRadius: 250
             }}>
-              <img src="https://irmapserver.ir/research/39/3534501.png"
+              <img src="https://ituring.ir/research/39/3534501.png"
                 style={{ height: 80, objectFit: "contain", }} />
 
               <span style={{ fontSize: 38.5 }}>
@@ -54,11 +54,11 @@ const Page: PageEl = (props, state, refresh, getProps) => {
             </f-cc>
             <f-cc style={{
               height: 300, width: 400,
-              backgroundImage: 'url("https://irmapserver.ir/research/39/images%20%281%29.png")'
+              backgroundImage: 'url("https://ituring.ir/research/39/images%20%281%29.png")'
               , borderRadius: 250
             }}>
 
-              <img src="https://irmapserver.ir/research/39/22222.png"
+              <img src="https://ituring.ir/research/39/22222.png"
                 style={{ height: 80, objectFit: "contain", }} />
 
 
@@ -94,7 +94,7 @@ export async function getServerSideProps(context) {
     usedquota, quota, quotaunit, status, regdate, expid,
     role, path, devmod, userip, } = session;
 
-  let data = await (await fetch("https://irmapserver.ir/research/api/weather")).json()
+  let data = await (await fetch("https://ituring.ir/research/api/weather")).json()
 
   let feelslikec = data.current_condition[0].FeelsLikeC
   let cloudcover = data.current_condition[0].cloudcover
