@@ -1,5 +1,5 @@
 This is a uservice project from Turing Research Team.
-<img src="(https://github.com/shahrowz/uweather/blob/master/turing.png?raw=true)"/>
+<img src="https://github.com/shahrowz/uweather/blob/master/turing.png?raw=true"/>
 ## Getting Started
 
 First, run the development server:
@@ -15,7 +15,7 @@ Open [https://xtal.ir/userv](https://xtal.ir/userv) with your browser to see the
 You can start editing the page by modifying `components/Pages/index.tsx`. The page auto-updates as you edit the file.
 <br/>
 <br/>
-<img src="[https://github.com/shahrowz/uweather/blob/master/Screenshot%20(5).png?raw=true]" />
+<img src="https://github.com/shahrowz/uweather/blob/master/Screenshot%20(5).png?raw=true" />
 <br/>
 Best regards.
 <br/>
